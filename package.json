@@ -1,0 +1,25 @@
+{
+  "name": "skill0927",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "node -r babel-register ./index.js"
+  },
+  "author": "yu0819ki <yu0819ki@gmail.com> (https://github.com/yu0819ki)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "es2016",
+      "stage-2"
+    ]
+  }
+}
